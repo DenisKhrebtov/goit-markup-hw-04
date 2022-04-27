@@ -73,7 +73,7 @@ img {
 
 /* Шапка сайта */
 .header {
-  border-bottom: 1px solid #757575;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-nav {
@@ -466,6 +466,11 @@ img {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.examples-item:hover {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer;
 }
 
 .container-examples {
